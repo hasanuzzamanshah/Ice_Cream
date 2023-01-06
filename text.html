@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.view {
+  border-radius: 15px;
+  background-color: #E3168F;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 9px ;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.view span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.view span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.view:hover span {
+  padding-right: 30px;
+   color: black;
+}
+
+.view:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+   
+    <!-- nav -->
+<section>
+   
+    <div class="container">
+        <nav class="navbar navbar-expand-lg nav-bg  fixed-top  ">
+            <div class="container-fluid logo  ">
+              <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav " id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item ">
+                    <a class="nav-link active px-3  " aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="#">Our Story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="#" >Contact Us</a>
+                  </li>
+                  
+                </ul>
+              </div > 
+              <div class="log">
+                <a class="nav-link px-3 " href="#" >Log in</a>
+              </div>
+             
+              <div class="wrap">
+                <button class="button">Sign Up</button>
+              </div>
+              </div>
+          </nav>
+    </div>
+                                  <!-- nav close -->
+
+
+
+    
+                                         <!-- slide start -->
+
+
+                <div class="container">
+                  <div id="carouselExampleControls" class="carousel slide slide-bg img-fluid" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="row align-items-center ">
+                              <div class="col-md-7">
+                                <h1 class="fw-bold">Fill every <span class="moment">moments</span><br> with our delicious <br>  <span class="ice"> ice creams</span></h1>
+                                <p>Lorem duo et labore consetetur sit, est diam invidunt clita elitr voluptua sit diam amet dolor. Et duo at sea duo est dolore et gubergren, et elitr dolore et elitr.</p>
+                                
+                                <button style="margin-top: 40px;" class="view"><span>View More </span></button>
+                              </div>
+
+                              <div class="col-md-5">
+                                      <img src="images/banner-images/slide3.png" class="d-block w-100" alt="...">
+                              </div>
+                          </div>
+              
+                        </div>
+                        
+                          <div class="carousel-item">
+                            <div class="row align-items-center">
+                              <div class="col-md-7">
+                                <h1 class="fw-bold">Fill every <span class="moment">moments</span><br> with our delicious <br>  <span class="ice"> ice creams</span></h1>
+                                <p>Lorem duo et labore consetetur sit, est diam invidunt clita elitr voluptua sit diam amet dolor. Et duo at sea duo est dolore et gubergren, et elitr dolore et elitr.</p>
+                           
+                                <button style="margin-top: 40px;"class="view">View More</button>
+                                <!-- margin-left: 30px" -->
+                              </div>
+                              <div class="col-5">
+                                      <!-- <img src="images/banner-images/xbox.png" class="d-block w-100" alt="..."> -->
+                                      <iframe style="height: 400px; width: 500px;"src="https://embed.lottiefiles.com/animation/29218"></iframe>
+                              </div>
+                          </div>
+                          
+                          </div>
+              
+                          <div class="carousel-item">
+                            <div class="row align-items-center">
+                              <div class="col-7">
+                                <h1 class="fw-bold">Fill every <span class="moment">moments</span><br> with our delicious <br>  <span class="ice"> ice creams</span></h1>
+                                <p>Lorem duo et labore consetetur sit, est diam invidunt clita elitr voluptua sit diam amet dolor. Et duo at sea duo est dolore et gubergren, et elitr dolore et elitr.</p>
+                                
+                                <button style="margin-top: 40px;"class="view">View More</button>
+                              </div>
+                              <div class="col-5">
+                                      <!-- <img src="images/banner-images/headphone.png" class="d-block w-100" alt="..."> -->
+                                      <iframe style="height: 400px; width: 500px;"src="https://embed.lottiefiles.com/animation/33800"></iframe>
+
+                              </div>
+                          </div
+                          
+                          </div>
+                        
+                        </div>
+              
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <!-- <span class="visually-hidden">Previous</span> -->
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <!-- <span class="visually-hidden">Next</span> -->
+                      </button>
+                   
+                    </div>
+              </div>
+                                               <!-- slide finish -->
+              
+    
+
+<section>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4"style=" margin-left:67px; margin-right:60px; margin-top:85px">
+    <div class="col">
+      <div>
+      
+        <img src="images/free home delivery.png" style="height:45px;width:45px ";  class="card-img-top center" alt="...">
+        <div class="card-body">
+          <h6 class="card-title" style="margin-left: 40px;font-size:20px; color: #282828;">Free Home Delivery</h6>
+          <p class="card-text"style= "text-align: center;font-size:15px;color:grey";>This is a longer card with supporting text below as a natural lead-in to additional content. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div>
+     
+        <img src="images/handmade product.png" style="height:45px;width:45px";  class="card-img-top center"  alt="...">
+        
+        <div class="card-body">
+          <h6 class="card-title"style="margin-left: 40px;font-size:20px; color:#282828;">Handmade Products</h6>
+          <p class="card-text"style= "text-align: center;font-size:15px;color:grey"">This is a longer card with supporting text below as a natural lead-in to additional content. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div>
+     
+        <img src="images/ice-cream-cup-1.png" style="height:45px;width:45px;";  class="card-img-top center" alt="...">
+        <div class="card-body">
+          <h6 class="card-title"style="margin-left: 40px;font-size:20px;color:#282828;">100% halal flavours</h6>
+          <p class="card-text"style= "text-align: center;font-size:15px;color:grey">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+    
+        <div >
+        <img src="images/handmade product.png" style="height:45px;width:45px;";  class="card-img-top center" alt="...">
+        <div class="card-body">
+          <h6 class="card-title "style="margin-left: 30px;font-size:20px;color: 282828;">Provide best qualities</h6>
+          <p class="card-text"style= "text-align: center;font-size:15px;color:grey"">This is a longer card with supporting text below as a natural lead-in to additional content. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+       
+<div>
+  <h3 style="text-align: center;margin-top: 100px; font-weight: bold;"><span>Our Delicious </span><span class="moment">Flavours</span></h3>
+ 
+</div>
+<div style="margin-top: 20px;margin-bottom:100px; margin-left: 330px;margin-right: 330px;">
+  <h6 style="text-align: center;font-size:15px;color:grey;line-height: 1.5;">Elitr ut amet est amet sea eirmod sadipscing. Dolor ut clita sit amet nonumy ut, est stet stet labore stet et lorem invidunt ea lorem, justo accusam ipsum amet consetetur.</h6>
+</div>
+
+
+                                 <!-- 1st step card start -->
+
+<section>
+  <div class="container mt-2">
+      
+      <div class="row ">
+        <div class="col-md-3 col-sm-6 ">
+          <div class="card card-block bg-light " style="margin-bottom: 20%;">
+              <img src="images/flavours/mango.png" style=" height:170px; width:100%;padding:20px " alt="">
+              <h5 class="card-title  mt-3 mb-3"style="font-weight: bold;padding:15px;text-align:center">Vanilla Flavour</h5>
+              <p class="card-text"style="margin-bottom:-20px; padding-left:15px; text-align:center">This is a company that builds websites, web apps.</p> 
+              <a href="" class="see p-2"><span class="mb-5">See more</span></a> 
+          </div>
+        </div>
+      <div class="col-md-3 col-sm-6 ">
+        <div class="card card-block bg-light ">
+            <img src="images/flavours/chocolate.png" style=" height:170px; width:100%;padding:20px" alt="">
+            <h5 class="card-title  mt-3 mb-3"style="font-weight: bold;padding:15px;text-align:center">Vanilla Flavour</h5>
+            <p class="card-text"style="margin-bottom:-20px; padding-left:15px; text-align:center">This is a company that builds websites, web apps.</p> 
+            <a href="" class="see p-2"><span class="mb-5">See more</span></a> 
+        </div>
+      </div>
+        <div class="col-md-3 col-sm-6 ">
+          <div class="card card-block bg-light ">
+              <img src="images/flavours/vanila.png" style=" height:170px; width:100%;padding:20px" alt="">
+              <h5 class="card-title  mt-3 mb-3"style="font-weight: bold;padding:15px;text-align:center">Vanilla Flavour</h5>
+              <p class="card-text"style="margin-bottom:-20px; padding-left:15px; text-align:center">This is a company that builds websites, web apps.</p> 
+              <a href="" class="see p-2"><span class="mb-5">See more</span></a> 
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 ">
+          <div class="card card-block bg-light ">
+              <img src="images/flavours/Alfto flavour.png" style=" height:170px; width:100%;padding:20px" alt="">
+              <h5 class="card-title  mt-3 mb-3"style="font-weight: bold;padding:15px;text-align:center">Vanilla Flavour</h5>
+              <p class="card-text"style="margin-bottom:-20px; padding-left:15px; text-align:center">This is a company that builds websites, web apps.</p> 
+              <a href="" class="see p-2"><span class="mb-5">See more</span></a> 
+          </div>
+        </div>   
+      </div>
+      
+    </div>
+    
+    <div class="container mt-2">
+      
+      <div class="row ">
+        <div class="col-md-3 col-sm-6 ">
+          <!-- bg-light -->
+          <div class="card card-block bg-light ">   
+              <img src="images/flavours/strawberry.png" style=" height:170px; width:100%;padding:20px" alt="">
+              <h5 class="card-title  mt-3 mb-3"style="font-weight: bold;padding:15px;text-align:center">Vanilla Flavour</h5>
+              <p class="card-text"style="margin-bottom:-20px; padding-left:15px; text-align:center">This is a company that builds websites, web apps.</p> 
+              <a href="" class="see p-2"><span class="mb-5">See more</span></a> 
+          </div>
+        </div>
+      <div class="col-md-3 col-sm-6 ">
+        <div class="card card-block bg-light ">
+            <img src="images/flavours/Mixed favoure.png" style=" height:170px; width:100%;padding:20px" alt="">
+            <h5 class="card-title  mt-3 mb-3"style="font-weight: bold;padding:15px;text-align:center">Vanilla Flavour</h5>
+            <p class="card-text"style="margin-bottom:-20px; padding-left:15px; text-align:center">This is a company that builds websites, web apps.</p> 
+            <a href="" class="see p-2"><span class="mb-5">See more</span></a> 
+        </div>
+      </div>
+        <div class="col-md-3 col-sm-6 ">
+          <div class="card card-block bg-light ">
+              <img src="images/flavours/coconut.png" style=" height:170px; width:100%;padding:20px" alt="">
+              <h5 class="card-title  mt-3 mb-3"style="font-weight: bold;padding:15px;text-align:center">Vanilla Flavour</h5>
+              <p class="card-text"style="margin-bottom:-20px; padding-left:15px; text-align:center">This is a company that builds websites, web apps.</p> 
+              <a href="" class="see p-2"><span class="mb-5">See more</span></a> 
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 ">
+          <div class="card card-block bg-light ">
+              <img src="images/flavours/speacial .png" style=" height:170px; width:100%;padding:20px" alt="">
+              <h5 class="card-title  mt-3 mb-3"style="font-weight: bold;padding:15px;text-align:center">Vanilla Flavour</h5>
+              <p class="card-text"style="margin-bottom:-20px; padding-left:15px; text-align:center">This is a company that builds websites, web apps.</p> 
+              <a href="" class="see p-2"><span class="mb-5">See more</span></a> 
+          </div>
+        </div>   
+      </div>
+      
+    </div>
+
+                           <!-- 2nd part -->
+
+
+</section>
+<div>
+  <h3 style="text-align: center;margin-top: 100px; font-weight: bold;"> Our  <span class="moment">Popular </span>ice creams</h3>
+ 
+</div>
+<div style="margin-top: 20px;margin-bottom:100px; margin-left: 330px;margin-right: 330px;">
+  <h6 style="text-align: center;font-size:15px;color:grey;line-height: 1.5;">Elitr ut amet est amet sea eirmod sadipscing. Dolor ut clita sit amet nonumy ut, est stet stet labore stet et lorem invidunt ea lorem, justo accusam ipsum amet consetetur.</h6>
+</div>
+
+
+
+<div class="container mt-2 ">
+
+  <div class="row pb-5 mb-4">
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 " >
+      <!-- Card-->
+    <div class="card rounded shadow-sm border-0  " >
+        <div class="card-body p-6 bg-light"><img src="images/2nd/cupmix.png"style=" height:180px; width:60%;" alt="" class="img-fluid d-block mx-auto mb-3">
+          <h5><a href="#" class="text-dark underline">Cup Mixed ice cream</a></h5> 
+          <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+         <h5>Tk 210 <span style="text-decoration: line-through; font-size: small;">350 tk</span></h5>
+         <button class=" add_card">Add to card</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      
+      <!-- Card-->
+      <div class="card rounded shadow-sm border-0 ">
+        <div class="card-body p-6 bg-light"><img src="images/2nd/chochlate.png"style=" height:180px; width:60%;" alt="" class="img-fluid d-block mx-auto mb-3">
+          <h5><a href="#" class="text-dark underline">Chocolate ice cream</a></h5> 
+          <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+         <h5>Tk 210 <span style="text-decoration: line-through; font-size: small;">350 tk</span></h5>
+         <button class=" add_card">Add to card</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 ">
+      <!-- Card-->
+      <div class="card rounded shadow-sm border-0 ">
+        <div class="card-body p-6 bg-light"><img src="images/2nd/venilla ice.png"style=" height:180px; width:60%;" alt="" class="img-fluid d-block mx-auto mb-3">
+          <h5><a href="#" class="text-dark underline">Vanilla ice cream</a></h5> 
+          <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+         <h5>Tk 210 <span style="text-decoration: line-through; font-size: small;">350 tk</span></h5>
+         <button class=" add_card">Add to card</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card rounded shadow-sm border-0 ">
+        <div class="card-body p-6 bg-light"><img src="images/2nd/pink pan.png" style=" height:180px; width:60%;"alt="" class="img-fluid d-block mx-auto mb-3">
+          <h5><a href="#" class="text-dark underline">Pink pan ice cream</a></h5> 
+          <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+         <h5>Tk 210 <span style="text-decoration: line-through; font-size: small;">350 tk</span></h5>
+         <button class=" add_card">Add to card</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+    <div class="row pb-5 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+      <div class="card rounded shadow-sm border-0">
+          <div class="card-body p-6 bg-light"><img src="images/2nd/multimix.png"style=" height:180px; width:60%;" alt="" alt="" class="img-fluid d-block mx-auto mb-3">
+            <h5><a href="#" class="text-dark underline">Multi mix ice ceram</a></h5> 
+            <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           <h5>Tk 120 <span style="text-decoration: line-through; font-size: small;">180 tk</span></h5>
+           <button class=" add_card">Add to card</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        
+        <!-- Card-->
+        <div class="card rounded shadow-sm border-0">
+          <div class="card-body p-6 bg-light"><img src="images/2nd/mangoice.png" style=" height:180px; width:60%;"alt="" class="img-fluid d-block mx-auto mb-3">
+            <h5><a href="#" class="text-dark underline">Mango ice cream</a></h5> 
+            <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           <h5>Tk 150 <span style="text-decoration: line-through; font-size: small;">200 tk</span></h5>
+           <button class=" add_card">Add to card</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-3 col-sm-6 ">
+        <!-- Card-->
+        <div class="card rounded shadow-sm border-0">
+          <div class="card-body p-6 bg-light"><img src="images/2nd/strawberry.png" style=" height:180px; width:60%;"alt="" class="img-fluid d-block mx-auto mb-3">
+            <h5><a href="#" class="text-dark underline">Strawberry ice cream</a></h5> 
+            <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           <h5>Tk 110 <span style="text-decoration: line-through; font-size: small;">200 tk</span></h5>
+           <button class=" add_card">Add to card</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <!-- Card-->
+        <div class="card rounded shadow-sm border-0">
+          <div class="card-body p-6 bg-light"><img src="images/2nd/colorful.png" style=" height:180px; width:60%;"alt="" class="img-fluid d-block mx-auto mb-3">
+            <h5><a href="#" class="text-dark underline">Colorful ice cream</a></h5> 
+            <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           <h5>Tk 199 <span style="text-decoration: line-through; font-size: small;">255 tk</span></h5>
+           <button class=" add_card">Add to card</button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+
+    </div>
+
+ 
+
+
+    <!-- </div>
+   </div> -->
+</section>
+
+
+                                <!-- 3rd part-->
+
+<div class="row">
+
+
+       
+        <div class="col-6" style="padding: 90px;">
+          <div class="row row-cols-1 row-cols-md-2 g-4  ">
+            <div class="col">
+              <div >
+                <img src="images/free home delivery.png" style="height:45px;width:45px ;margin-left: 12px;";class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div >
+                <img src="images/handmade product.png" style="height:45px;width:45px ;margin-left: 12px;";class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div >
+                <img src="images/ice-cream-cup-1.png" style="height:45px;width:45px;margin-left: 12px; ";class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div >
+                <img src="images/freshness.png" class="card-img-top"style="height:45px;width:45px;margin-left: 12px; "; alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+                 
+        </div>
+
+    
+        <div class=" col-6 ">
+            <img src="images/last.png" style="height: 78%;width: 88%;padding-top:93px;" alt="">
+        </div>
+    
+      </div>
+     
+
+     <section>
+      
+      <div class="container" >
+        <h3 style="text-align: center;margin-top: -7%; font-weight: bold;">What Our  <span class="moment">customer</span> says</h3>
+       
+      </div>
+      <div style=" margin-left: 330px;margin-right: 330px;">
+        <h6 style="text-align: center;font-size:15px;color:grey;line-height: 1.5;margin-top: 8%;">Elitr ut amet est amet sea eirmod sadipscing. Dolor ut clita sit amet nonumy ut, est stet stet labore stet et lorem invidunt ea lorem, justo accusam ipsum amet consetetur.</h6>
+      </div>
+   
+    </section>
+
+    
+
+
+    
+    <div class="team-boxed" style="padding-bottom:60px">
+      <div class="container">
+         
+          <div class="row people">
+              <div class="col-md-6 col-lg-4 item">
+                  <div class="box"><img class="rounded-circle" src="images/2 (1).png">
+                      <h3 class="name">Ben Johnson</h3>
+                      <img src="images/star.png"style="max-width: 70px;" alt="">
+                      <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <div class="box"><img class="rounded-circle" src="images/2 (2).png">
+                      <h3 class="name">Emily Clark</h3>
+                      <img src="images/star.png"style="max-width: 70px;" alt="">
+                      <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <div class="box"><img class="rounded-circle" src="images/2 (1).png">
+                      <h3 class="name">Carl Kent</h3>
+                      <img src="images/star.png" style="max-width: 70px;"alt="">
+                      <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+ 
+
+                                     <!-- Footer -->
+
+
+
+
+<section id="footer">
+  <div class="container">
+    <div class="row text-center text-xs-center text-sm-left text-md-left">
+      <div class="col-xs-12 col-sm-4 col-md-3">
+        
+        <a class="navbar-brand "style="margin-left:-145px;" href="#" ><img style="width:35%"  src="images/logo.png" alt=""></a>
+          <ul class="list-unstyled quick-links">
+            <p style="padding-top: 15px;">our job is to finlling tummy delicious and healthy 
+              uce cream with fast and free delivery within 30 minutes.
+            </p>
+       
+      </div>
+     
+      <div class="col-xs-12 col-sm-4 col-md-2">
+       
+        <h5>About</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: 14%;" class="fa fa-angle-double-right"></i>About Us</a></li>
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: 10%;"class="fa fa-angle-double-right"></i>features</a></li>
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: 15%;" class="fa fa-angle-double-right"></i>Our News</a></li>
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: 15%;"class="fa fa-angle-double-right"></i>Ice creams</a></li>
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: -2%;" class="fa fa-angle-double-right"></i>Videos</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-2">
+        <h5>Company</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: 14%;" class="fa fa-angle-double-right"></i>Why Icobar</a></li>
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: 20%;"class="fa fa-angle-double-right"></i>Partner With</a></li>
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: -16%;"class="fa fa-angle-double-right"></i>FAQ</a></li>
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: -16%;"class="fa fa-angle-double-right"></i>Blog</a></li>
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: -11%;"class="fa fa-angle-double-right"></i>Videos</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-2">
+        <h5>Support</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: 8%;"class="fa fa-angle-double-right"></i>Account</a></li>
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: 9%;"class="fa fa-angle-double-right"></i>Support</a></li>
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i style="margin-left: 15%;"class="fa fa-angle-double-right"></i>Feedback</a></li>
+          <li><a href="https://www.fiverr.com/share/qb8D02"><i  style="margin-left: 19%;"class="fa fa-angle-double-right"></i>Contact Us</a></li>
+          <li><a href="https://wwwe.sunlimetech.com" ><i style="margin-left: 5%;"class="fa fa-angle-double-right"></i>Vidoes</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-3">
+        <h5>Get in Touch</h5>
+        <ul class="list-unstyled quick-links">
+        <p>
+          Have any question or feedback?  
+          We would love to hear from you
+        </p>
+        <form style="margin-top: 40px;">
+          <input style="border-radius: 15px;padding:5px;border-color: white;" type="email" name="" placeholder="     Enter email address "><button class="last">Submit</button>
+          
+      </form>
+      </div>
+    </div>
+   
+   <section class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+        <ul style="margin-top: -9rem" class="list-unstyled list-inline social text-left">
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+      </div> 
+      
+    </div>	  
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+       
+       
+      </div>
+      <hr>
+    </div>	
+    
+ </div>
+ <h6 style="color: #6c757d;text-align: center;">copyright  © || 2021 design by Riaz devlope Pobon</h6>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
